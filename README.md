@@ -5,14 +5,15 @@ Son de Lenguaje de Marcas y de Programación.
 Me enseñaron a hacer cosas con HTML, CSS y un poco de JavaScript.
 
 ````
-├──ud0
-    └── ejercicio1y2
-    └── ejercicio3
+├── ud0
+     └── ejercicio1y2 - aprender a crear un doc. HTML y añadir CSS.
+     └── ejercicio3 - hacer una calculadora y como reto añadir JavaScript.
 ````
 
 ## Programación
 Aquí es todo únicamente Java.
 
 ````
-hola
+├── ud0
+     └── Calculadora - con ayuda de un ejemplo, hacer un programa simple.
 ````
