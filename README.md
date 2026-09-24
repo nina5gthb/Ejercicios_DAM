@@ -1,20 +1,18 @@
 # Ejercicios_DAM
 Son de Lenguaje de Marcas y de Programación.
 
----
-
-# Lenguaje de Marcas
-
+## Lenguaje de Marcas
 Me enseñaron a hacer cosas con HTML, CSS y un poco de JavaScript.
 
-- ud0
-  - ejercicio1y2
-  - ejercicio3
- 
----
+````
+├──ud0
+    └── ejercicio1y2
+    └── ejercicio3
+````
 
-# Programación
-
+## Programación
 Aquí es todo únicamente Java.
 
-- ej
+````
+hola
+````
