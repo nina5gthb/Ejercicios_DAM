@@ -3,7 +3,7 @@ Son de Lenguaje de Marcas y de Programación.
 
 ---
 
-#Lenguaje de Marcas
+# Lenguaje de Marcas
 
 Me enseñaron a hacer cosas con HTML, CSS y un poco de JavaScript.
 
@@ -13,7 +13,7 @@ Me enseñaron a hacer cosas con HTML, CSS y un poco de JavaScript.
  
 ---
 
-#Programación
+# Programación
 
 Aquí es todo únicamente Java.
 
