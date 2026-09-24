@@ -1,0 +1,21 @@
+    /* Encabezado h1 de html */
+        .texto-centrado {
+            text-align:center;
+            }
+
+    /* Fondo de color y color de la fuente */
+        body {
+            background-color: #FF0000;
+            color:aliceblue;
+            }
+
+    /* Tamaño y fuente de los encabezados */
+        h1, h4 {
+            font-family: 'Trebuchet MS';
+            font-size: 60px;
+        }
+
+    /* Color de todos los elementos */
+        * {
+            color:aliceblue;
+            }
