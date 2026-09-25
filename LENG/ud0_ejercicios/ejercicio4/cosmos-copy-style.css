@@ -1,0 +1,29 @@
+/*DOCTYPE CSS*/
+
+@font-face {font-family: 'Cosmos-Roobert';
+            src: url('ejercicio4/fonts/RoobertCollectionVF-TRIAL.ttf') format('truetype');}
+
+* {background-color: #f5f3f1;
+    font-family: "Cosmos-Roobert", sans-serif;}
+
+.nav-ul {display: flex;}
+
+.nav-li {list-style: none;
+        padding: 10px;
+        margin: 10px;
+        gap: 10px;}
+
+.nav-a-style {color: #0d0d0d;
+                text-decoration: none;}
+
+.button {justify-content: flex-end;
+            background-color: #0d0d0d; 
+            padding: 10px; 
+            margin:20px;
+            color: #eeeeee;
+            border-radius: 20px;
+            text-decoration: none;}
+
+.button:hover {background-color: #414141;}
+
+.main {text-align: center;}
