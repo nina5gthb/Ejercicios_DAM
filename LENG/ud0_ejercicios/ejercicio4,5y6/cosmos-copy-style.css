@@ -1,0 +1,156 @@
+/*DOCTYPE CSS*/
+
+
+/*FULL DOC*/
+
+@font-face {font-family: 'Cosmos-Roobert';
+            src: url('fonts/RoobertCollectionVF-TRIAL.ttf') format('truetype');}
+
+@media (max-width: 600px) {.nav-li {margin: 4px;
+                                    padding: 6px;}
+                            footer {grid-template-columns: 1fr;}
+                            .newsletter  {grid-column: 1; grid-row: 1;}
+                            .social-media {grid-column: 1;
+                                           grid-row: 2;}
+                            .cosmos-footer {grid-row: 3;}
+                            .social-li {text-align: left;} }
+
+body {background-color: #f5f3f1;
+      font-family: "Cosmos-Roobert", sans-serif;
+      margin: 0;}
+
+
+/*HEADER*/
+
+    /*NAV*/
+
+.nav-ul {display: flex;
+         align-items: center;
+         flex-wrap: wrap;}
+
+        .nav-li {list-style: none;
+                 padding: 10px;
+                 margin: 10px;}
+
+.button-sin {color: #0d0d0d;
+    text-decoration: none;}
+
+.button-down {list-style: none;
+              padding: 10px;
+              margin: 10px 0 0 auto;}
+
+             .button-circle {background-color: #0d0d0d;
+                             padding: 10px;
+                             margin:20px;
+                             color: #eeeeee;
+                             border-radius: 20px;
+                             text-decoration: none;
+                             border: none;}
+
+                            .button-circle:hover {background-color: #150d0d;}
+
+
+/*MAIN*/
+
+.main {text-align: center;}
+
+    /*TEXT*/
+
+.main-h1 {max-width: 10ch;
+          margin: 0 auto;}
+
+    /*BUTTONS*/
+
+        /*button-circle*/
+
+.button-film {align-items: center;
+              color: #0d0d0d;
+              border: none;}
+
+#film {border: none;
+       border-radius: 20px;
+       padding: 40px;
+       background-color: #414141;
+       color: #eeeeee;}
+
+        #film::backdrop {background-color: #979797cc;}
+
+
+/*FOOTER*/
+
+footer {overflow: hidden;
+        background-color: #979797;
+        margin-top:100px;
+        background-image: linear-gradient(#f5f3f180, #f5f3f180), url("foto-back.jpg");
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: start;}
+
+/*SOCIAL MEDIA*/
+
+.social-media {margin-top: 0;
+               grid-column: 2;
+               grid-row: 1;
+               padding: 20px;}
+
+              .social-li {list-style: none;
+                          padding: 1px 5px;
+                          text-align: right;}
+
+    /*button-sin*/
+
+/*NEWSLETTER*/
+
+.newsletter {text-align: left;
+             padding: 20px;
+             margin: 0;
+             list-style: none;
+             grid-column: 1;
+             grid-row: 1;}
+
+             .news-h3 {margin: 0 0 8px;}
+
+             .news-p {margin: 0 0 12px;}
+
+             .news-button {background-color: #0d0d0d;
+                           padding: 10px;
+                           color: #eeeeee;
+                           border-radius: 20px;
+                           text-decoration: none;
+                           border: none;}
+
+#join-in {border: none;
+          border-radius: 20px;
+          padding: 40px;
+          background-color: #414141;
+          color: #eeeeee;
+          text-align: left;}
+
+          .join-in-input {display: block;
+                          width: 100%;
+                          box-sizing: border-box;
+                          margin-bottom: 25px;}
+
+          #join-in .button-circle {display: block;
+                                   margin: 10px auto 0;}
+
+          #join-in::backdrop {background-color: #979797cc;}
+
+input {border: none;
+       outline: none;
+       padding: 5px;}
+
+.cosmos-footer {font-size: 15vmax;
+                margin: 0;
+                padding: 10px;
+                text-align: center;
+                transform: translateY(10%);
+                line-height: 0.6;
+                grid-column: 1 / -1;
+                grid-row: 2;}
+
+/*OTHERS PAGES*/
+
+.pag {text-align: center;}
