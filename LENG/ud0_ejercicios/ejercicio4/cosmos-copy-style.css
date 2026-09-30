@@ -3,27 +3,54 @@
 @font-face {font-family: 'Cosmos-Roobert';
             src: url('ejercicio4/fonts/RoobertCollectionVF-TRIAL.ttf') format('truetype');}
 
-* {background-color: #f5f3f1;
-    font-family: "Cosmos-Roobert", sans-serif;}
+body {background-color: #f5f3f1;
+      font-family: "Cosmos-Roobert", sans-serif;
+      margin: 0;}
 
-.nav-ul {display: flex;}
+.nav-ul {display: flex;
+         align-items: center;}
 
 .nav-li {list-style: none;
-        padding: 10px;
-        margin: 10px;
-        gap: 10px;}
+         padding: 10px;
+         margin: 10px;}
 
-.nav-a-style {color: #0d0d0d;
-                text-decoration: none;}
-
-.button {justify-content: flex-end;
-            background-color: #0d0d0d; 
-            padding: 10px; 
-            margin:20px;
-            color: #eeeeee;
-            border-radius: 20px;
+.button-sin {color: #0d0d0d;
             text-decoration: none;}
 
-.button:hover {background-color: #414141;}
+.button-circle {background-color: #0d0d0d;
+                padding: 10px;
+                margin:20px;
+                color: #eeeeee;
+                border-radius: 20px;
+                text-decoration: none;}
+
+.button-circle:hover {background-color: #414141;}
 
 .main {text-align: center;}
+
+.button-film {align-items: center;
+              color: #0d0d0d;
+              border: none;}
+
+#film {border: none;
+       border-radius: 20px;
+       padding: 40px;
+       background-color: #150d0d;
+       color: #eeeeee;}
+
+#film::backdrop {background-color: #979797cc;}
+
+footer {overflow: hidden;
+        background-color: #979797;
+        margin-top:100px;}
+
+.footer-li {list-style: none;
+            padding: 3px 10px;
+            text-align: right;}
+
+.cosmos-footer {font-size: 170px;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        transform: translateY(10%);
+        line-height: 3cm}

@@ -10,39 +10,43 @@
         <header>
             <nav>
                 <ul class="nav-ul">
-                    <li class="nav-li"> COSMOS <!--imagen logo--> </li>
-                    <li class="nav-li"> <a class="nav-a-style" href="#"> Home </a> </li>
-                    <li class="nav-li"> <a class="nav-a-style" href="#"> Explore </a> </li>
-                    <li class="nav-li"> <a class="nav-a-style" href="#"> Sequence </a> </li>
-                    <li class="nav-li" style="margin-right: auto"> <a class="button" href="#"> Download </a> </li>
+                    <li class="nav-li"> <img alt="Logo de Cosmos" src="foto-icon.png" height="46" width="53"/> </li>
+                    <li class="nav-li"> <a class="button-sin" href="home.html"> Home </a> </li>
+                    <li class="nav-li"> <a class="button-sin" href="explore.html"> Explore </a> </li>
+                    <li class="nav-li"> <a class="button-sin" href="sequence.html"> Sequence </a> </li>
+                    <li class="nav-li" style="margin-left: auto"> <a class="button-circle" href="#"> Download </a> </li>
                 </ul>
             </nav>
         </header>
 
         <main class="main">
-            <br>
-            <br>
-            <br>
-            
-            <h1> COSMOS </h1>
-            <h2> Your space <br> for inspiration </h2>
-            
-            <br>
-            <a class="button" href="#"> Get the app </a>
-            <br>
-            <br>
-            <p> Watch the new film </p> <!--poner icon y que sea el button-->
+            <div> <!--text-->
+                <!--space--> <br> <br> <br>
+
+                <h3> COSMOS </h3>
+                <h1> Your space <br> for inspiration </h1>
+            </div>
+
+            <!--space--> <br>
+
+            <div> <!--buttons-->
+                <a class="button-circle" href="#"> Get the app </a>
+
+                <!--space--> <br> <br> <br> <br>
+
+                <button class="button-film" popovertarget="film"> <span> ▶ </span> Watch the new film </button>
+                <div id="film" popover> film </div>
+            </div>
         </main>
         
         <footer>
+            <ul>
+                <li class="footer-li"> <a class="button-sin" href="#"> YouTube </a> </li>
+                <li class="footer-li"> <a class="button-sin" href="#"> Instagram </a> </li>
+                <li class="footer-li"> <a class="button-sin" href="#"> X </a> </li>
+            </ul>
 
+            <p class="cosmos-footer">COSMOS</p>
         </footer>
     </body>
 </html>
-
-<!--faltan divisores
-que el download se vaya a la derecha bien
-el footer
-pag home
-pag explore
-y pag seq.-->
