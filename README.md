@@ -9,7 +9,8 @@ Me enseñaron a hacer cosas con HTML, CSS y un poco de JavaScript.
      └── ejercicio1y2     - aprender a crear un doc. HTML y añadir CSS.
      └── ejercicio3       - hacer una calculadora y como reto: añadir JavaScript.
      └── ejercicio4,5,6y7 - copiar una web, hacerla responsive con diferentes
-                            etiquetas y uso de bibliotecas como Bootstrap.                                             (https://www.cosmos.so).
+                            etiquetas y uso de bibliotecas como Bootstrap
+                            (https://www.cosmos.so).
 ````
 
 ## Programación
