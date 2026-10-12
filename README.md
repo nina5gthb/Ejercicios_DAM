@@ -7,7 +7,8 @@ Me enseñaron a hacer cosas con HTML, CSS y un poco de JavaScript.
 ````
 ├── ud0
      └── ejercicio1y2     - aprender a crear un doc. HTML y añadir CSS.
-     └── ejercicio3       - hacer una calculadora y como reto: añadir JavaScript. (tengo que terminar esto con JS).
+     └── ejercicio3       - hacer una calculadora y como reto: añadir JavaScript.
+                              (tengo que terminar esto con JS).
      └── ejercicio4,5,6y7 - copiar una web, hacerla responsive con diferentes
                             etiquetas y uso de bibliotecas como Bootstrap
                             (https://www.cosmos.so).
