@@ -21,8 +21,8 @@ Aquí es todo Java (aunque hay un poco de diagramas de flujo y pseudocódigo).
 ├── ud0
 |    └── Calculadora - con ayuda de un ejemplo, hacer un programa simple.
 ├── ud1
-     └── ejercicio1
-     └── ejercicio2
+     └── ejercicio1  - pesudocódigo y diagrama de flujo
+     └── ejercicio2  - de mini programas y cosas de matemáticas
      └── ejercicio3
      └── ejercicio4
      └── ejercicio5
